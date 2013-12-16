@@ -3,7 +3,7 @@ import java.util.Hashtable;
 
 /**
  * 
- * @author miguel
+ * @author Miguel
  *
  */
 public class Dijkstra {
