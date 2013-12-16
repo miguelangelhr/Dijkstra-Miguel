@@ -1,7 +1,8 @@
 package graphs;
+
 /**
  * 
- * @author vsutskever
+ * @author miguel
  * 
  */
 public class GraphConstants {

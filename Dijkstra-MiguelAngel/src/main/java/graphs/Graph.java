@@ -4,14 +4,16 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author vsutskever
- * Collections of functinos 
+ * @author miguel
+ * Coleccion de Funcioens
+ * 
  */
 public class Graph {
 
 	private GraphNode startNode;
 	private ArrayList <GraphNode> allNodes = new ArrayList<GraphNode>();
 	private ArrayList <Integer> visitedNodes = new ArrayList<Integer>(); 
+	
 	/**
 	 * @param startNode
 	 */
@@ -19,19 +21,21 @@ public class Graph {
 		this.startNode = startNode;
 		this.discoverGraph();
 	}
+	
 	/**
 	 * @return the start node
 	 */	
 	public GraphNode getStartNode(){
 		return this.startNode;
 	}
+	
 	/**
 	 * @return
 	 */
 	public ArrayList<GraphNode> getAllNodes(){
 		return this.allNodes;
 	}
-				
+			
 	/**
 	 * Breath First Search traversal of the Graph 
 	 */
@@ -44,6 +48,7 @@ public class Graph {
 			}
 		}
 	}
+	
 	/**
 	 * @param n
 	 */
@@ -56,6 +61,7 @@ public class Graph {
 			}
 		}
 	}
+	
 	/**
 	 * @param n
 	 * @return
@@ -63,12 +69,14 @@ public class Graph {
 	private boolean isVisited(GraphNode n){
 		return visitedNodes.contains(n.getID());
 	}
+	
 	/**
 	 * @param n
 	 */
 	private void visit(GraphNode n){
 		this.visitedNodes.add(n.getID());
 	}
+	
 	/**
 	 * 
 	 */

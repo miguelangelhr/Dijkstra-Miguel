@@ -7,11 +7,13 @@ import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+
 /**
  * 
- * @author vaneMB
+ * @author miguel
  * 
  */
+
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestDijkstra {
 

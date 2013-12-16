@@ -2,7 +2,8 @@ package graphs;
 import java.util.Hashtable;
 
 /**
- * @author vsutskever
+ * 
+ * @author miguel
  *
  */
 public class Dijkstra {

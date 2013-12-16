@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author vsutskever
+ * @author miguel
  * 
  */
 final class Edge {
@@ -16,13 +16,16 @@ final class Edge {
 		this.node = nodeTo;
 		this.cost = cost;
 	}
+	
+	
 	/**
 	 * 
 	 * @return
-	 */
+	 */	
 	public GraphNode getNode() {
 		return node;
 	}
+	
 	/**
 	 * 
 	 * @return
@@ -32,8 +35,9 @@ final class Edge {
 	}
 }
 
+
 /**
- * @author vsutskever
+ * @author miguel
  */
 public class GraphNode implements Comparable<GraphNode> {
 
